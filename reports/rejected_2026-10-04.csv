@@ -1,0 +1,44 @@
+ticker,name,fails
+ALB,Albemarle Corporation,"利息覆盖, 毛利率, ROE"
+AXON,"Axon Enterprise, Inc.","FCF率, 净负债/EBITDA, 利息覆盖, ROE, F-Score"
+BKNG,Booking Holdings Inc. Common St,利息覆盖
+CHTR,"Charter Communications, Inc.","净负债/EBITDA, 利息覆盖, 营收增长"
+CLX,Clorox Company (The),"净负债/EBITDA, 营收增长, F-Score"
+CMCSA,Comcast Corporation,营收增长
+CTVA,"Corteva, Inc.","EBITDA≤0, 毛利率, 营收增长"
+EFX,"Equifax, Inc.","净负债/EBITDA, 利息覆盖"
+EXE,Expand Energy Corporation,营收增长
+F,Ford Motor Company,"FCF率, 净负债/EBITDA, 利息覆盖, 毛利率, ROE, 营收增长, F-Score"
+FICO,Fair Isaac Corporation,净负债/EBITDA
+FIS,Fidelity National Information S,"净负债/EBITDA, 利息覆盖"
+FISV,"Fiserv, Inc.","EBITDA≤0, 利息覆盖, 毛利率, 营收增长, F-Score"
+GEN,Gen Digital Inc.,"净负债/EBITDA, 利息覆盖"
+GIS,"General Mills, Inc.","净负债/EBITDA, 利息覆盖, ROE, 营收增长, F-Score"
+HAL,Halliburton Company,"毛利率, F-Score"
+HD,"Home Depot, Inc. (The)",F-Score
+HSY,The Hershey Company,F-Score
+IP,International Paper Company,"FCF率, 利息覆盖, ROE, 营收增长, F-Score"
+LDOS,"Leidos Holdings, Inc.",毛利率
+LHX,"L3Harris Technologies, Inc.","利息覆盖, ROE"
+LMT,Lockheed Martin Corporation,毛利率
+LOW,"Lowe's Companies, Inc.",净负债/EBITDA
+LULU,lululemon athletica inc.,"营收增长, F-Score"
+LVS,Las Vegas Sands Corp.,"净负债/EBITDA, 利息覆盖, 营收增长"
+MCD,McDonald's Corporation,净负债/EBITDA
+MGM,MGM Resorts International,"净负债/EBITDA, 利息覆盖"
+MKC,"McCormick & Company, Incorporat","净负债/EBITDA, 利息覆盖"
+MOS,Mosaic Company (The),"FCF率, 净负债/EBITDA, 毛利率, ROE, 营收增长"
+NEE,"NextEra Energy, Inc.","净负债/EBITDA, 利息覆盖, F-Score"
+NKE,"Nike, Inc.","FCF率, 营收增长, F-Score"
+NOC,Northrop Grumman Corporation,毛利率
+NRG,"NRG Energy, Inc.","FCF率, 净负债/EBITDA, 利息覆盖, 毛利率, F-Score"
+OTIS,Otis Worldwide Corporation,净负债/EBITDA
+PCAR,PACCAR Inc.,"毛利率, F-Score"
+PCG,Pacific Gas & Electric Co.,"FCF率, 净负债/EBITDA, 利息覆盖, ROE"
+PEP,"Pepsico, Inc.",F-Score
+PNR,Pentair plc.,营收增长
+STZ,"Constellation Brands, Inc.","净负债/EBITDA, 营收增长"
+TKO,"TKO Group Holdings, Inc.","净负债/EBITDA, 利息覆盖, ROE"
+VRSK,"Verisk Analytics, Inc.",净负债/EBITDA
+WYNN,"Wynn Resorts, Limited","净负债/EBITDA, 利息覆盖, F-Score"
+XYL,Xylem Inc.,ROE
