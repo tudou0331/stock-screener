@@ -32,7 +32,7 @@ import pandas as pd
 import yfinance as yf
 
 CFG = {
-    "top_n": 8,                       # 每次送 AI 分析的股票数（控制成本）
+    "top_n": 5,                       # 每个通道送 AI 分析的股票数（价值、成长各取前 N 只）
     "model": "claude-sonnet-5-5",     # 想要更深入可换 "claude-opus-5-5"
     "max_searches": 8,                # 每只股票 AI 最多搜索次数
     "discount_rate": 0.09,            # 反向 DCF 折现率
@@ -74,7 +74,8 @@ def analyst_snapshot(ticker):
     inc = _safe(lambda: t.financials, pd.DataFrame())
     qcf = _safe(lambda: t.quarterly_cashflow, pd.DataFrame())
 
-    s = {"ticker": ticker, "name": info.get("shortName", ticker), "sector": info.get("sector"),
+    s = {"ticker": ticker, "track": TRACKS.get(ticker), "name": info.get("shortName", ticker),
+         "sector": info.get("sector"),
          "price": info.get("currentPrice") or info.get("regularMarketPrice"),
          "market_cap": info.get("marketCap"),
          "net_debt": (info.get("totalDebt") or 0) - (info.get("totalCash") or 0)}
@@ -216,6 +217,9 @@ SYSTEM_PROMPT = """你是一名独立的卖方研究审计员。你的任务是�
 5. 同样认真地寻找空头论点。如果空头论点更有说服力，直接说分析师可能仍然偏乐观。
 6. 每条判断都要附信息来源和日期。区分事实与推断。
 7. "证据不足"是完全可以接受的结论，比勉强给出观点更好。
+8. 数据中的 track 字段表示筛选通道。若为 "growth"（成长股，可能尚未盈利），重点评估：增长是否可持续、单位经济模型、
+   盈利路径是否可信、现金能否撑到盈利、是否需要稀释融资、竞争格局；不要用成熟公司的市盈率逻辑否定它。
+   若为 "value"，重点评估：利润和现金流的下滑是暂时的还是结构性的。
 
 只输出一个 JSON 对象，不要任何其他文字或 markdown 代码块，结构如下:
 {
@@ -425,13 +429,22 @@ def write_report(pairs, cfg=CFG):
 
 
 # ============================== 主流程 ==============================
+TRACKS = {}   # ticker -> "value" / "growth"
+
+
 def pick_tickers(argv, cfg=CFG):
     if argv:
         return [a.upper() for a in argv]
     files = sorted(glob.glob(os.path.join(cfg["out_dir"], "screen_*.csv")))
     if not files:
         sys.exit("没有找到 screen_*.csv，请先运行 oversold_quality_screener.py 或直接指定股票代码。")
-    return pd.read_csv(files[-1])["ticker"].head(cfg["top_n"]).tolist()
+    df = pd.read_csv(files[-1])
+    if "track" in df.columns:
+        df = df.groupby("track", sort=False).head(cfg["top_n"])
+        TRACKS.update(dict(zip(df["ticker"], df["track"])))
+    else:
+        df = df.head(cfg["top_n"])
+    return df["ticker"].tolist()
 
 
 def main():
