@@ -1,5 +1,6 @@
 {
  "ticker": "APP",
+ "track": "value",
  "name": "Applovin Corporation",
  "sector": "Communication Services",
  "price": 268.22,
