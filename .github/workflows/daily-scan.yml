@@ -1,0 +1,44 @@
+name: Daily stock scan
+
+on:
+  schedule:
+    - cron: "30 21 * * 1-5"   # 周一至周五 UTC 21:30（巴黎时间 22:30 或 23:30，美股收盘后）
+  workflow_dispatch:          # 允许在 Actions 页面手动点击运行
+
+permissions:
+  contents: write             # 允许把报告提交回仓库
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Layer 1+2 · oversold + fundamentals screen
+        run: python oversold_quality_screener.py
+
+      - name: Layer 3 · generate analyst-audit prompts
+        run: |
+          TODAY=$(date -u +%F)
+          if [ -f "reports/screen_${TODAY}.csv" ]; then
+            python analyst_ai.py --prompt
+          else
+            echo "今天没有通过筛选的股票，跳过提示词生成。"
+          fi
+
+      - name: Commit reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports
+          git diff --cached --quiet || git commit -m "Daily scan $(date -u +%F)"
+          git push
