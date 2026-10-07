@@ -1,7 +1,7 @@
 {
- "ticker": "CARG",
+ "ticker": "BSX",
  "track": "value",
- "name": "CARG",
+ "name": "BSX",
  "sector": null,
  "price": null,
  "market_cap": null,
@@ -22,8 +22,8 @@
  "eps_rev90_+1y": null,
  "revisions_up30": null,
  "revisions_down30": null,
- "hist_rev_cagr_3y": -0.18166679056329382,
- "fcf_ttm": 291280000.0,
+ "hist_rev_cagr_3y": 0.16541890019606442,
+ "fcf_ttm": 1806000000.0,
  "implied_fcf_growth": null,
  "signals": []
 }
