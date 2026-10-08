@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Grupo Aeroportuario del Centro ",
  "sector": "Industrials",
- "price": 94.19,
- "market_cap": 4546662400,
+ "price": 90.43,
+ "market_cap": 4365162496,
  "net_debt": 11694947584,
  "eps_0y": 7.031,
  "eps_growth_0y": 0.1433,
@@ -27,7 +27,7 @@
  "pt_mean": 122.275,
  "pt_low": 100.0,
  "pt_high": 150.0,
- "pt_upside": 0.29817390381144504,
+ "pt_upside": 0.3521508348999225,
  "pct_buy": 0.625,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
@@ -39,7 +39,7 @@
  ],
  "hist_rev_cagr_3y": 0.10182595910121406,
  "fcf_ttm": 6784297000.0,
- "implied_fcf_growth": -0.26034310130474514,
+ "implied_fcf_growth": -0.26249677331836063,
  "signals": [
   "市场隐含增长(-26%)明显低于分析师预期(11%)：要么市场过度悲观，要么分析师还没下调"
  ]
