@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Curtiss-Wright Corporation",
  "sector": "Industrials",
- "price": 495.25,
- "market_cap": 18291783680,
+ "price": 494.19,
+ "market_cap": 18252632064,
  "net_debt": 671832000,
  "eps_0y": 15.35198,
  "eps_growth_0y": 0.1604,
@@ -27,7 +27,7 @@
  "pt_mean": 691.25,
  "pt_low": 518.0,
  "pt_high": 870.0,
- "pt_upside": 0.39575971731448756,
+ "pt_upside": 0.39875351585422614,
  "pct_buy": 0.6666666666666666,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
@@ -43,7 +43,7 @@
  ],
  "hist_rev_cagr_3y": 0.1101380918895083,
  "fcf_ttm": 625289000.0,
- "implied_fcf_growth": 0.11152311858521069,
+ "implied_fcf_growth": 0.11124979211503494,
  "signals": [
   "目标价频繁下调但评级与EPS预期基本不变：可能只是目标价在追价格，而非新的基本面信息",
   "过去4季超预期率100%、平均超4%：分析师对这家公司历来偏保守"
