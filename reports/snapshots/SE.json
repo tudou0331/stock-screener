@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Sea Limited",
  "sector": "Consumer Cyclical",
- "price": 77.94,
- "market_cap": 47737044992,
+ "price": 74.63,
+ "market_cap": 45709721600,
  "net_debt": -4972373504,
  "eps_0y": 3.92521,
  "eps_growth_0y": 0.2373,
@@ -24,10 +24,10 @@
  "revisions_down30": 2.0,
  "beat_rate_4q": 0.25,
  "avg_surprise_4q": -0.0577250025,
- "pt_mean": 154.75285,
- "pt_low": 105.0,
+ "pt_mean": 154.03857,
+ "pt_low": 85.0,
  "pt_high": 195.0,
- "pt_upside": 0.9855382345393893,
+ "pt_upside": 1.0640301487337531,
  "pct_buy": 0.9310344827586207,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
@@ -41,9 +41,9 @@
  ],
  "hist_rev_cagr_3y": 0.2259378555374607,
  "fcf_ttm": 4691242000.0,
- "implied_fcf_growth": -0.04911575894237413,
+ "implied_fcf_growth": -0.055848883678747796,
  "signals": [
-  "市场隐含增长(-5%)明显低于分析师预期(23%)：要么市场过度悲观，要么分析师还没下调",
+  "市场隐含增长(-6%)明显低于分析师预期(23%)：要么市场过度悲观，要么分析师还没下调",
   "分析师分歧大(高低差为均值的51%)：不确定性高，也是错误定价最可能出现的地方"
  ]
 }
