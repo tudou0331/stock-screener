@@ -3,8 +3,8 @@
  "track": "value",
  "name": "First Majestic Silver Corp.",
  "sector": "Basic Materials",
- "price": 14.77,
- "market_cap": 7282805248,
+ "price": 14.85,
+ "market_cap": 7322251264,
  "net_debt": -917294976,
  "eps_0y": 0.91,
  "eps_growth_0y": 0.97830003,
@@ -27,7 +27,7 @@
  "pt_mean": 24.0,
  "pt_low": 22.5,
  "pt_high": 25.5,
- "pt_upside": 0.6249153689911984,
+ "pt_upside": 0.6161616161616161,
  "pct_buy": 0.8333333333333334,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
@@ -40,6 +40,6 @@
  ],
  "hist_rev_cagr_3y": 0.2637473682487568,
  "fcf_ttm": 614084000.0,
- "implied_fcf_growth": -0.03146159782297203,
+ "implied_fcf_growth": -0.030618218350506876,
  "signals": []
 }
