@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Graco Inc.",
  "sector": "Industrials",
- "price": 66.07,
- "market_cap": 10595985408,
+ "price": 66.46,
+ "market_cap": 10658531328,
  "net_debt": 24854992,
  "eps_0y": 3.23111,
  "eps_growth_0y": 0.0953,
@@ -27,7 +27,7 @@
  "pt_mean": 83.28571,
  "pt_low": 76.0,
  "pt_high": 100.0,
- "pt_upside": 0.2605677311941881,
+ "pt_upside": 0.2531704784832982,
  "pct_buy": 0.4,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
@@ -41,7 +41,7 @@
  ],
  "hist_rev_cagr_3y": 0.01427047813640736,
  "fcf_ttm": 600096000.0,
- "implied_fcf_growth": 0.04033129595521434,
+ "implied_fcf_growth": 0.041109799605407615,
  "signals": [
   "目标价频繁下调但评级与EPS预期基本不变：可能只是目标价在追价格，而非新的基本面信息"
  ]
