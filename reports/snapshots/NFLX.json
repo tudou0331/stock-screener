@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Netflix, Inc.",
  "sector": "Communication Services",
- "price": 62.52,
- "market_cap": 260329504768,
+ "price": 61.99,
+ "market_cap": 258122629120,
  "net_debt": 9306835456,
  "eps_0y": 3.58373,
  "eps_growth_0y": 0.4165,
@@ -27,7 +27,7 @@
  "pt_mean": 84.76326,
  "pt_low": 57.0,
  "pt_high": 126.0,
- "pt_upside": 0.35577831094049905,
+ "pt_upside": 0.367369898370705,
  "pct_buy": 0.6470588235294118,
  "pct_sell": 0.0392156862745098,
  "downgrades_90d": 4,
@@ -46,6 +46,6 @@
  ],
  "hist_rev_cagr_3y": 0.12639718371360664,
  "fcf_ttm": 11375063000.0,
- "implied_fcf_growth": 0.07896958271494403,
+ "implied_fcf_growth": 0.07788430511985467,
  "signals": []
 }

@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Sea Limited",
  "sector": "Consumer Cyclical",
- "price": 74.73,
- "market_cap": 45770973184,
+ "price": 75.18,
+ "market_cap": 46046588928,
  "net_debt": -4972373504,
  "eps_0y": 3.91976,
  "eps_growth_0y": 0.2356,
@@ -27,22 +27,23 @@
  "pt_mean": 149.11,
  "pt_low": 70.0,
  "pt_high": 195.0,
- "pt_upside": 0.9953164726348187,
+ "pt_upside": 0.9833732375631816,
  "pct_buy": 0.9259259259259259,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
  "upgrades_90d": 0,
- "pt_cuts_90d": 1,
+ "pt_cuts_90d": 2,
  "pt_raises_90d": 2,
  "recent_actions": [
+  "2026-10-28 JP Morgan: Overweight→Overweight PT 173.0→149.0",
   "2026-08-13 Barclays: Overweight→Overweight PT 122.0→156.0",
   "2026-08-12 Benchmark: Buy→Buy PT 140.0→175.0",
   "2026-08-04 TD Cowen: Hold→Hold PT 108.0→100.0"
  ],
  "hist_rev_cagr_3y": 0.2259378555374607,
  "fcf_ttm": 4691242000.0,
- "implied_fcf_growth": -0.055640044196993255,
+ "implied_fcf_growth": -0.054704623268574004,
  "signals": [
-  "市场隐含增长(-6%)明显低于分析师预期(23%)：要么市场过度悲观，要么分析师还没下调"
+  "市场隐含增长(-5%)明显低于分析师预期(23%)：要么市场过度悲观，要么分析师还没下调"
  ]
 }
