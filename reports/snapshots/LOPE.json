@@ -3,8 +3,8 @@
  "track": "value",
  "name": "Grand Canyon Education, Inc.",
  "sector": "Consumer Defensive",
- "price": 116.5,
- "market_cap": 2971975168,
+ "price": 117.75,
+ "market_cap": 3003863296,
  "net_debt": -48131000,
  "eps_0y": 10.08333,
  "eps_growth_0y": 0.1105,
@@ -27,7 +27,7 @@
  "pt_mean": 184.33333,
  "pt_low": 173.0,
  "pt_high": 200.0,
- "pt_upside": 0.5822603433476394,
+ "pt_upside": 0.5654635244161359,
  "pct_buy": 1.0,
  "pct_sell": 0.0,
  "downgrades_90d": 0,
@@ -40,7 +40,7 @@
  ],
  "hist_rev_cagr_3y": 0.06669303937480997,
  "fcf_ttm": 264649000.0,
- "implied_fcf_growth": -0.02278202655968914,
+ "implied_fcf_growth": -0.021309246109824598,
  "signals": [
   "市场隐含增长(-2%)明显低于分析师预期(6%)：要么市场过度悲观，要么分析师还没下调"
  ]

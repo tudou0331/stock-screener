@@ -3,8 +3,8 @@
  "track": "value",
  "name": "F5, Inc.",
  "sector": "Technology",
- "price": 317.31,
- "market_cap": 18026698752,
+ "price": 320.01,
+ "market_cap": 18180087808,
  "net_debt": -1378076992,
  "eps_0y": 18.22742,
  "eps_growth_0y": 0.0422,
@@ -27,7 +27,7 @@
  "pt_mean": 444.66666,
  "pt_low": 300.0,
  "pt_high": 540.0,
- "pt_upside": 0.4013635246289118,
+ "pt_upside": 0.38953988937845696,
  "pct_buy": 0.3076923076923077,
  "pct_sell": 0.07692307692307693,
  "downgrades_90d": 1,
@@ -44,7 +44,7 @@
  ],
  "hist_rev_cagr_3y": 0.04631913174341684,
  "fcf_ttm": 969595000.0,
- "implied_fcf_growth": 0.03631468795998327,
+ "implied_fcf_growth": 0.03753160876508066,
  "signals": [
   "过去4季超预期率100%、平均超14%：分析师对这家公司历来偏保守"
  ]
