@@ -1,0 +1,68 @@
+ticker,name,价值通道未通过,成长通道未通过
+AD,"Array Digital Infrastructure, I","FCF率, 净负债/EBITDA","营收增速, 40法则, 现金跑道, 烧钱且净负债"
+ALM,Almonty Industries Inc.,"FCF率, 利息覆盖, F-Score","股权稀释, 利润率未改善"
+ALNY,"Alnylam Pharmaceuticals, Inc.",利息覆盖,"营收增速, 40法则"
+ANDE,"The Andersons, Inc.","市值, FCF率, 净负债/EBITDA, 利息覆盖, 毛利率","未达成长通道超卖标准, 营收增速, 毛利率, 40法则, 现金跑道, 利润率未改善, 烧钱且净负债"
+APTV,Aptiv PLC,"FCF率, 利息覆盖, 毛利率","营收增速, 毛利率, 40法则, 利润率未改善"
+ARWR,"Arrowhead Pharmaceuticals, Inc.","FCF率, EBITDA≤0, 利息覆盖, ROE, F-Score",股权稀释
+AXON,"Axon Enterprise, Inc.","FCF率, 净负债/EBITDA, 利息覆盖, ROE, F-Score","40法则, 利润率未改善"
+BFAM,Bright Horizons Family Solution,"净负债/EBITDA, 毛利率, ROE","营收增速, 毛利率, 40法则"
+BTE,Baytex Energy Corp,"利息覆盖, ROE","未达成长通道超卖标准, 利润率未改善"
+BTU,Peabody Energy Corporation,"FCF率, 利息覆盖, 毛利率, ROE, F-Score","营收增速, 毛利率, 40法则, 现金跑道, 利润率未改善"
+BULL,Webull Corporation,"FCF率, EBITDA≤0, ROE, F-Score","40法则, 股权稀释"
+CAI,"Caris Life Sciences, Inc.","FCF率, 利息覆盖","未达成长通道超卖标准, 40法则"
+CLMT,"Calumet, Inc","净负债/EBITDA, 利息覆盖, 毛利率",毛利率
+CMPR,Cimpress PLC,"市值, FCF率, 净负债/EBITDA, 利息覆盖","营收增速, 40法则"
+CRC,California Resources Corporatio,"净负债/EBITDA, 利息覆盖, ROE, F-Score","未达成长通道超卖标准, 利润率未改善"
+CVI,CVR Energy Inc.,"利息覆盖, 毛利率",毛利率
+DDOG,"Datadog, Inc.",ROE,利润率未改善
+DT,"Dynatrace, Inc.",ROE,"未达成长通道超卖标准, 营收增速"
+FIVN,"Five9, Inc.","利息覆盖, ROE","未达成长通道超卖标准, 营收增速, 40法则"
+FLNG,FLEX LNG Ltd.,"市值, 净负债/EBITDA, 利息覆盖, F-Score","未达成长通道超卖标准, 营收增速, 利润率未改善"
+GT,The Goodyear Tire & Rubber Comp,"市值, FCF率, 净负债/EBITDA, 利息覆盖, 毛利率, ROE, 营收增长","营收增速, 毛利率, 40法则, 利润率未改善"
+HALO,"Halozyme Therapeutics, Inc.",F-Score,未达成长通道超卖标准
+HLIO,"Helios Technologies, Inc.","市值, 利息覆盖, ROE","营收增速, 毛利率, 40法则"
+HOS,"Hornbeck Offshore Services, Inc","市值, FCF率, 利息覆盖, ROE",利润率未改善
+HUBG,"Hub Group, Inc.","市值, FCF率, 毛利率, ROE, 营收增长","营收增速, 毛利率, 40法则, 利润率未改善"
+IEP,Icahn Enterprises L.P. - Deposi,"FCF率, 净负债/EBITDA, 利息覆盖, 毛利率, ROE, F-Score","未达成长通道超卖标准, 营收增速, 毛利率, 40法则, 股权稀释, 利润率未改善, 烧钱且净负债"
+INTC,Intel Corporation,"利息覆盖, ROE","40法则, 股权稀释"
+INVA,"Innoviva, Inc.","市值, 营收增长, F-Score","未达成长通道超卖标准, 营收增速, 股权稀释, 利润率未改善"
+IONS,"Ionis Pharmaceuticals, Inc.","FCF率, EBITDA≤0, 利息覆盖, 毛利率, ROE, F-Score","毛利率, 40法则, 烧钱且净负债"
+IOSP,Innospec Inc.,"市值, FCF率","未达成长通道超卖标准, 营收增速, 毛利率, 40法则, 利润率未改善"
+IOVA,"Iovance Biotherapeutics, Inc.","FCF率, EBITDA≤0, ROE, F-Score","40法则, 现金跑道, 股权稀释"
+IRTC,"iRhythm Holdings, Inc.","FCF率, 净负债/EBITDA, 利息覆盖, ROE","营收增速, 40法则"
+KMT,Kennametal Inc.,"市值, FCF率","现金跑道, 烧钱且净负债"
+KOS,Kosmos Energy Ltd.,"市值, 净负债/EBITDA, 利息覆盖, ROE, F-Score",利润率未改善
+LEA,Lear Corporation,"FCF率, 毛利率","未达成长通道超卖标准, 营收增速, 毛利率, 40法则, 利润率未改善"
+MELI,"MercadoLibre, Inc.",F-Score,"未达成长通道超卖标准, 利润率未改善"
+MH,"McGraw Hill, Inc.","净负债/EBITDA, ROE, 营收增长","营收增速, 40法则"
+MLYS,"Mineralys Therapeutics, Inc.","市值, FCF率, EBITDA≤0, 利息覆盖, 毛利率, ROE, 营收增长, F-Score","营收增速, 毛利率, 40法则, 股权稀释, 利润率未改善"
+MNR,Mach Natural Resources LP,"市值, 利息覆盖, ROE, F-Score","未达成长通道超卖标准, 股权稀释, 利润率未改善"
+MOD,Modine Manufacturing Company,"FCF率, 毛利率","毛利率, 40法则, 利润率未改善, 烧钱且净负债"
+NEU,NewMarket Corp,F-Score,"未达成长通道超卖标准, 营收增速, 毛利率, 40法则, 利润率未改善"
+NICE,NICE Ltd,ROE,"未达成长通道超卖标准, 营收增速, 40法则"
+NRIX,"Nurix Therapeutics, Inc.","市值, F-Score",股权稀释
+NSSC,"NAPCO Security Technologies, In",市值,"未达成长通道超卖标准, 营收增速, 40法则"
+NTCT,"NetScout Systems, Inc.",ROE,"未达成长通道超卖标准, 营收增速, 40法则"
+NTRA,"Natera, Inc.","FCF率, EBITDA≤0, 利息覆盖, ROE, F-Score","未达成长通道超卖标准, 40法则, 利润率未改善"
+NVCR,NovoCure Limited,"市值, FCF率, EBITDA≤0, 利息覆盖, ROE, F-Score","营收增速, 40法则"
+NVDA,NVIDIA Corporation,F-Score,"未达成长通道超卖标准, 利润率未改善"
+OII,"Oceaneering International, Inc.",毛利率,"营收增速, 毛利率, 40法则"
+PAM,Pampa Energia S.A.,"FCF率, 利息覆盖","未达成长通道超卖标准, 毛利率, 40法则, 烧钱且净负债"
+SFL,SFL Corporation Ltd,"市值, 净负债/EBITDA, 利息覆盖, ROE, F-Score","未达成长通道超卖标准, 营收增速, 40法则, 利润率未改善"
+SOUN,"SoundHound AI, Inc.","市值, FCF率, EBITDA≤0, 利息覆盖, ROE, F-Score","毛利率, 40法则, 现金跑道"
+SRE,DBA Sempra,"FCF率, 净负债/EBITDA, 利息覆盖, ROE","未达成长通道超卖标准, 营收增速, 40法则, 现金跑道, 烧钱且净负债"
+STRA,"Strategic Education, Inc.","市值, ROE","营收增速, 40法则"
+STVN,Stevanato Group S.p.A.,"FCF率, ROE","营收增速, 毛利率, 40法则, 烧钱且净负债"
+TEAM,Atlassian Corporation,"利息覆盖, ROE",未达成长通道超卖标准
+TFII,TFI International Inc.,"净负债/EBITDA, 利息覆盖, 毛利率","营收增速, 毛利率, 40法则, 利润率未改善"
+TGS,Transportadora de Gas del Sur S,FCF率,40法则
+TPL,Texas Pacific Land Corporation,F-Score,利润率未改善
+UGP,Ultrapar Participacoes S.A. (Ne,"利息覆盖, 毛利率, F-Score","未达成长通道超卖标准, 毛利率, 40法则, 利润率未改善"
+URGN,UroGen Pharma Ltd.,"市值, FCF率, EBITDA≤0, 利息覆盖, F-Score","现金跑道, 股权稀释, 利润率未改善, 烧钱且净负债"
+UROY,Uranium Royalty Corp.,"市值, 净负债/EBITDA, ROE","毛利率, 股权稀释"
+UUUU,Energy Fuels Inc,"市值, FCF率, EBITDA≤0, 利息覆盖, ROE, F-Score","40法则, 股权稀释, 利润率未改善"
+VCYT,"Veracyte, Inc.","市值, ROE",营收增速
+VET,Vermilion Energy Inc.,"市值, 利息覆盖, ROE, F-Score","未达成长通道超卖标准, 利润率未改善"
+VIST,Vista Energy S.A.B. de C.V.,"利息覆盖, F-Score","未达成长通道超卖标准, 股权稀释, 利润率未改善"
+YPF,YPF Sociedad Anonima,"利息覆盖, F-Score","毛利率, 利润率未改善"
