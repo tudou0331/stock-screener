@@ -3,8 +3,8 @@
  "track": "growth",
  "name": "ServiceNow, Inc.",
  "sector": "Technology",
- "price": 100.66,
- "market_cap": 104476729344,
+ "price": 102.25,
+ "market_cap": 106127015936,
  "net_debt": 3808000000,
  "eps_0y": 3.95455,
  "eps_growth_0y": 0.1267,
@@ -21,13 +21,13 @@
  "eps_rev30_+1y": -0.04059726181747725,
  "eps_rev90_+1y": -0.040727579256880087,
  "revisions_up30": 6.0,
- "revisions_down30": 32.0,
+ "revisions_down30": 33.0,
  "beat_rate_4q": 0.75,
  "avg_surprise_4q": 0.017750000050000003,
  "pt_mean": 155.8187,
  "pt_low": 72.0,
  "pt_high": 266.0,
- "pt_upside": 0.5479703953904234,
+ "pt_upside": 0.5238992665036675,
  "pct_buy": 0.8979591836734694,
  "pct_sell": 0.04081632653061224,
  "downgrades_90d": 0,
@@ -46,8 +46,8 @@
  ],
  "hist_rev_cagr_3y": 0.22376517864742618,
  "fcf_ttm": 4750000000.0,
- "implied_fcf_growth": 0.07381500594441925,
+ "implied_fcf_growth": 0.07581259376108951,
  "signals": [
-  "市场隐含增长(7%)明显低于分析师预期(19%)：要么市场过度悲观，要么分析师还没下调"
+  "市场隐含增长(8%)明显低于分析师预期(19%)：要么市场过度悲观，要么分析师还没下调"
  ]
 }
