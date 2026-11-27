@@ -4,7 +4,7 @@
  "name": "Intuit Inc.",
  "sector": "Technology",
  "price": 271.72,
- "market_cap": 71738155008,
+ "market_cap": 71589896192,
  "net_debt": 2390000128,
  "eps_0y": 22.94861,
  "eps_growth_0y": -0.0544,
@@ -46,7 +46,7 @@
  ],
  "hist_rev_cagr_3y": 0.14286998540558393,
  "fcf_ttm": 9005000000.0,
- "implied_fcf_growth": -0.06329989824545618,
+ "implied_fcf_growth": -0.06358000640659262,
  "signals": [
   "市场隐含增长(-6%)明显低于分析师预期(8%)：要么市场过度悲观，要么分析师还没下调",
   "明年EPS预期90天下修-7%：分析师在跟随恶化，下修通常有惯性",
